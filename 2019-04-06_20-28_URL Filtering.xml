@@ -1,0 +1,3227 @@
+<libraryContent>
+  <libraryObject>
+    <name>URL Filtering</name>
+    <version>7.8.2.3.0-26967</version>
+    <description>URL Filtering: The method of blocking sites by categories, including the use of Dynamic Content Classification (DCC).</description>
+  </libraryObject>
+  <lists>
+    <entry>
+      <string>com.scur.type.string.2803</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="Executives: Allowed Hosts, Domains, or URLs (SmartMatch)" id="com.scur.type.string.2803" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content>
+          <listEntry>
+            <entry>budweiser.com</entry>
+            <description>
+            </description>
+          </listEntry>
+          <listEntry>
+            <entry>smith-wesson.com</entry>
+            <description>
+            </description>
+          </listEntry>
+          <listEntry>
+            <entry>youtube.com</entry>
+            <description>
+            </description>
+          </listEntry>
+          <listEntry>
+            <entry>tekdefense.com</entry>
+            <description>
+            </description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.iprange.3177</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="SocialNetworking: Allowed Client IPRanges" id="com.scur.type.iprange.3177" typeId="com.scur.type.iprange" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.iprange.3254</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="WebMail: Allowed Client IPRanges(3)" id="com.scur.type.iprange.3254" typeId="com.scur.type.iprange" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3358</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="CloudStorage: Allowed Users or Groups" id="com.scur.type.string.3358" typeId="com.scur.type.string" classifier="Users" systemList="false" structuralList="false" defaultRights="2">
+        <description>This list of user or group names will be allowed to Exception: Categories.
+If the rules are prefixed, you may use DOMAIN\USERNAME notation.</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.iprange.3359</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="CloudStorage: Allowed Client IPRanges" id="com.scur.type.iprange.3359" typeId="com.scur.type.iprange" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.iprange.2962</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="Executives: Allowed Client IPRanges" id="com.scur.type.iprange.2962" typeId="com.scur.type.iprange" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.1487</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="URL Filter: Override Blocked Categories" id="com.scur.type.category.1487" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>Exempt categories override the block when a site has multiple categories. 
+This overrides the default blocked categories below this rule.
+For example if a site is on both Education and Sexual Material, putting Education here, will allow the site even if it's blocked by the Sexual Materials category.</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.105</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.111</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.3028</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="URL Filter: Default Blocked Categories" id="com.scur.type.category.3028" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>These categories are always blocked for everyone unless an exception is made above this block.
+The default selected ones are just eamples. Modify them to conform to your policy.</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.101</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.110</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.151</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.115</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.156</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.170</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.192</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.195</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.113</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.163</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.153</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.155</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.180</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.132</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.149</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.137</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.162</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.102</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.104</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.200</entry>
+            <description>Available since category set 4</description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.201</entry>
+            <description>Available since category set 4</description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.121</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.190</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.202</entry>
+            <description>Available since category set 4</description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.204</entry>
+            <description>Available since category set 4</description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.130</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.138</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.169</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.109</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.118</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.176</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.205</entry>
+            <description>Available since category set 4</description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.171</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.150</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3442</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="CloudStorage: Allowed Hosts, Domains, or URLs (SmartMatch)" id="com.scur.type.string.3442" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.1440</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)" id="com.scur.type.string.1440" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description></description>
+        <content>
+          <listEntry>
+            <entry>budweiser.com</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>smith-wesson.com</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>youtube.com</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>tekdefense.com</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.1502</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="POLICYNAME: Allowed Users or Groups" id="com.scur.type.string.1502" typeId="com.scur.type.string" classifier="Users" systemList="false" structuralList="false" defaultRights="2">
+        <description>This list of user or group names will be allowed to Exception: Categories.
+If the rules are prefixed, you may use DOMAIN\USERNAME notation.</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3209</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="SafeSearch: Bypass Sites" id="com.scur.type.string.3209" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>SmartList of Sites to bypass SafeSearch Enforcement.
+There are instances where SafeSearch may break certain sections of a site.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+        <content>
+          <listEntry>
+            <entry>play.google.com/store/search</entry>
+            <description>SafeSearch breaks Google Play store</description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3205</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="URL Filter: Allowed Sites" id="com.scur.type.string.3205" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.iprange.1480</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="POLICYNAME: Allowed Client IPRanges" id="com.scur.type.iprange.1480" typeId="com.scur.type.iprange" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3207</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="URL Filter: Blocked Sites" id="com.scur.type.string.3207" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>SmartList of Hosts, Domains, or URLs to always block.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.3176</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="SocialNetworking: Allowed Categories" id="com.scur.type.category.3176" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>SocialNetworking: Users and Groups will be allowed to these categories. 
+Example: 
+Social Networking, Dating/Personals</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.192</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.195</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.3252</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="WebMail: Allowed Categories" id="com.scur.type.category.3252" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>WebMail: Users and Groups will be allowed to these categories. 
+Example: 
+Social Networking, Dating/Personals</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.156</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.2782</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="Executives: Allowed Categories" id="com.scur.type.category.2782" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>Executives: Users and Groups will be allowed to these categories. 
+Example: 
+Social Networking, Dating/Personals</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.156</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.170</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.192</entry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <entry>com.scur.category.195</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.2939</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="SocialNetworking: Allowed Users or Groups" id="com.scur.type.string.2939" typeId="com.scur.type.string" classifier="Users" systemList="false" structuralList="false" defaultRights="2">
+        <description>This list of user or group names will be allowed to Exception: Categories.
+If the rules are prefixed, you may use DOMAIN\USERNAME notation.</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.3394</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="CloudStorage: Allowed Categories" id="com.scur.type.category.3394" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>CloudStorage: Users and Groups will be allowed to these categories. 
+Example: 
+Social Networking, Dating/Personals</description>
+        <content>
+          <listEntry>
+            <entry>com.scur.category.170</entry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.complex.extendedlist.2252</string>
+      <list version="1.2" mwg-version="7.8.2.3.0-26967" name="URL Filter: Default Extended List" id="com.scur.type.complex.extendedlist.2252" typeId="com.scur.type.complex.extendedlist" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description></description>
+        <content>
+          <listEntry>
+            <complexEntry defaultRights="2">
+              <configurationProperties>
+                <configurationProperty key="protocol" type="com.scur.type.string" encrypted="false" value="any"/>
+                <configurationProperty key="url" type="com.scur.type.string" encrypted="false" value="translate.google.com/translate"/>
+                <configurationProperty key="categories" type="com.scur.type.inlineList" listType="com.scur.type.category" encrypted="false" value="&lt;list version=&quot;1.0.3.41&quot; mwg-version=&quot;7.3.2.3.0-16052&quot; classifier=&quot;Other&quot; systemList=&quot;false&quot; structuralList=&quot;false&quot; defaultRights=&quot;2&quot;>&#xa;  &lt;description>&lt;/description>&#xa;  &lt;content>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.196&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;  &lt;/content>&#xa;&lt;/list>"/>
+              </configurationProperties>
+            </complexEntry>
+            <description></description>
+          </listEntry>
+          <listEntry>
+            <complexEntry defaultRights="2">
+              <configurationProperties>
+                <configurationProperty key="protocol" type="com.scur.type.string" encrypted="false" value="any"/>
+                <configurationProperty key="url" type="com.scur.type.string" encrypted="false" value="translate.googleusercontent.com/translate_c"/>
+                <configurationProperty key="categories" type="com.scur.type.inlineList" listType="com.scur.type.category" encrypted="false" value="&lt;list version=&quot;1.0.3.45&quot; mwg-version=&quot;7.4.1-16854&quot; classifier=&quot;Other&quot; systemList=&quot;false&quot; structuralList=&quot;false&quot; defaultRights=&quot;2&quot;>&#xa;  &lt;description>&lt;/description>&#xa;  &lt;content>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.196&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;  &lt;/content>&#xa;&lt;/list>"/>
+              </configurationProperties>
+            </complexEntry>
+            <description></description>
+          </listEntry>
+        </content>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3250</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="WebMail: Allowed Hosts, Domains, or URLs (SmartMatch)" id="com.scur.type.string.3250" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.category.1499</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="POLICYNAME: Allowed Categories" id="com.scur.type.category.1499" typeId="com.scur.type.category" classifier="Other" systemList="false" structuralList="false" defaultRights="2">
+        <description>POLICYNAME: Users and Groups will be allowed to these categories. 
+Example: 
+Social Networking, Dating/Personals</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.2960</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="Executives: Allowed Users or Groups" id="com.scur.type.string.2960" typeId="com.scur.type.string" classifier="Users" systemList="false" structuralList="false" defaultRights="2">
+        <description>This list of user or group names will be allowed to Exception: Categories.
+If the rules are prefixed, you may use DOMAIN\USERNAME notation.</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3251</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="WebMail: Allowed Users or Groups" id="com.scur.type.string.3251" typeId="com.scur.type.string" classifier="Users" systemList="false" structuralList="false" defaultRights="2">
+        <description>This list of user or group names will be allowed to Exception: Categories.
+If the rules are prefixed, you may use DOMAIN\USERNAME notation.</description>
+        <content/>
+      </list>
+    </entry>
+    <entry>
+      <string>com.scur.type.string.3175</string>
+      <list version="1.0.3.46" mwg-version="7.8.2.3.0-26967" name="SocialNetworking: Allowed Hosts, Domains, or URLs (SmartMatch)" id="com.scur.type.string.3175" typeId="com.scur.type.string" classifier="URLs" systemList="false" structuralList="false" defaultRights="2">
+        <description>
+        </description>
+        <content/>
+      </list>
+    </entry>
+  </lists>
+  <configurations>
+    <configuration version="1.6" mwg-version="7.8.2.3.0-26967" id="com.scur.mainaction.block.1810" defaultRights="2" templateId="com.scur.template.mainaction.block" name="Bad Reputation" targetId="com.scur.mainaction.block">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="DirectoryName" type="com.scur.type.string" encrypted="false" value="mcafee"/>
+        <configurationProperty key="TemplateName" type="com.scur.type.string" encrypted="false" value="BadReputation"/>
+        <configurationProperty key="Language" type="com.scur.type.string" encrypted="false" value="auto"/>
+        <configurationProperty key="BlockReasonID" type="com.scur.type.number" encrypted="false" value="18"/>
+        <configurationProperty key="BlockReason" type="com.scur.type.string" encrypted="false" value="Blocked by GTI Reputation"/>
+      </configurationProperties>
+      <description></description>
+    </configuration>
+    <configuration version="1.1.3" mwg-version="7.8.2.3.0-26967" id="com.scur.engine.safesearchenforcer.2118" defaultRights="2" templateId="com.scur.engine.safesearchenforcer.conf" name="SafeSearch: Strict" targetId="com.scur.engine.safesearchenforcer">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="doReverseDNS" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="moderate" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="strict" type="com.scur.type.boolean" encrypted="false" value="true"/>
+      </configurationProperties>
+      <description></description>
+    </configuration>
+    <configuration version="1.0.2" mwg-version="7.8.2.3.0-26967" id="com.scur.engine.billing.4575" defaultRights="2" templateId="com.scur.template.engine.billing" name="Default" targetId="com.scur.engine.billing">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="Counters" type="com.scur.type.inlineList" listType="com.scur.type.complex.counters" encrypted="false" value="&lt;list version=&quot;1.0.3.45&quot; mwg-version=&quot;7.4.1-16854&quot; classifier=&quot;Other&quot; systemList=&quot;false&quot; structuralList=&quot;false&quot; defaultRights=&quot;2&quot;>&#xa;  &lt;description>&lt;/description>&#xa;  &lt;content>&#xa;    &lt;listEntry>&#xa;      &lt;complexEntry defaultRights=&quot;2&quot;>&#xa;        &lt;configurationProperties>&#xa;          &lt;configurationProperty key=&quot;counter.name&quot; type=&quot;com.scur.type.string&quot; value=&quot;BlockedByGeo&quot;/>&#xa;          &lt;configurationProperty key=&quot;counter.type&quot; type=&quot;com.scur.type.string&quot; value=&quot;Increment&quot;/>&#xa;        &lt;/configurationProperties>&#xa;      &lt;/complexEntry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;  &lt;/content>&#xa;&lt;/list>"/>
+      </configurationProperties>
+      <description>Default configuration for statistics filter.</description>
+    </configuration>
+    <configuration version="1.12.0" mwg-version="7.8.2.3.0-26967" id="com.scur.engine.trustedsource.4569" defaultRights="2" templateId="com.scur.template.engine.trustedsource" name="URL Filter: Default" targetId="com.scur.engine.trustedsource">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="OnlyInTheCloud" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="MinimalRiskUnverified" type="com.scur.type.number" encrypted="false" value="14"/>
+        <configurationProperty key="UnverifiedMediumRisk" type="com.scur.type.number" encrypted="false" value="29"/>
+        <configurationProperty key="MediumRiskHighRisk" type="com.scur.type.number" encrypted="false" value="49"/>
+        <configurationProperty key="SearchCgis" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="SearchEmbeddedUrls" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseBackwardDns" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="UseForwardDns" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="EnableNetLookup" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="ExtendedList" type="com.scur.type.list" listType="com.scur.type.complex.extendedlist" encrypted="false" value="com.scur.type.complex.extendedlist.2252"/>
+        <configurationProperty key="ServerIP" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ServerPort" type="com.scur.type.number" encrypted="false" value="443"/>
+        <configurationProperty key="UseDefaultServer" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="TreatConnectionProblemsAsErros" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LogLevel" type="com.scur.type.string" encrypted="false" value="TS_LOG_LEVEL_INFO"/>
+        <configurationProperty key="TS_LOG_AREA_NETWORK" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="TS_LOG_AREA_ALL" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_TRUSTEDSOURCE" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="TS_LOG_AREA_DATABASE_SEARCH" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_DNS" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_URL" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LoggingEnabled" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="UseBuildInKeywordList" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseProxySettings" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ProxyPort" type="com.scur.type.number" encrypted="false" value="9090"/>
+        <configurationProperty key="UseBackwardDnsForPrivateIPs" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ProxyPassword" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ProxyUsername" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ProxyIP" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="EnableDCC" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="DCCCategories" type="com.scur.type.inlineList" listType="com.scur.type.dcccategory" encrypted="false" value="&lt;list version=&quot;1.0.3.45&quot; mwg-version=&quot;7.4.1-16854&quot; classifier=&quot;Other&quot; systemList=&quot;false&quot; structuralList=&quot;false&quot; defaultRights=&quot;2&quot;>&#xa;  &lt;description>&lt;/description>&#xa;  &lt;content>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.188&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.105&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.115&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.116&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.122&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.178&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.181&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.149&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.176&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.146&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;  &lt;/content>&#xa;&lt;/list>"/>
+        <configurationProperty key="TreatInvalidUrlsAsErros" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LogFraction" type="com.scur.type.number" encrypted="false" value="100"/>
+        <configurationProperty key="ConnectionCount" type="com.scur.type.number" encrypted="false" value="4"/>
+        <configurationProperty key="UseServerCert" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ServerCertificate" type="com.scur.type.string" encrypted="false" value="-----BEGIN CERTIFICATE-----&#xd;&#xa;MIIDHDCCAgSgAwIBAgIBATANBgkqhkiG9w0BAQUFADA2MQwwCgYDVQQKDANtd2cx&#xd;&#xa;CzAJBgNVBAcMAnVzMQswCQYDVQQGEwJVUzEMMAoGA1UEAwwDbXdnMB4XDTE2MDMy&#xd;&#xa;NDEzNDMwNVoXDTI2MDMyNDEzNDMwNVowNjEMMAoGA1UECgwDbXdnMQswCQYDVQQH&#xd;&#xa;DAJ1czELMAkGA1UEBhMCVVMxDDAKBgNVBAMMA213ZzCCASIwDQYJKoZIhvcNAQEB&#xd;&#xa;BQADggEPADCCAQoCggEBAJF32M7KAq+i1ak7ct6LKgRghBgOE54g47ZEUgs8ZvwZ&#xd;&#xa;n16aZFbck1SVeHI/k9IrNxW70uRx+IkpI7521iZpGwphJ892VIaq2FCdC+FfLe2i&#xd;&#xa;vCzSjZPYM+2yq8U/dZB+djL3dI/WeUDlDskvZzDMxmuYYs1z2/ADMvS7eWUKNwZs&#xd;&#xa;eLm+mC1XzHS6CbnTO1IViPXXbTwm7OYItlJiT4bAEC6H6XYSrSDZ+8XqHSztyoqv&#xd;&#xa;uS20UbdJ+vK2SkKHzfM0gXyHOe7FhU6zRsCOT6kb+gdN5QwSKEUey9DyQkUeuME3&#xd;&#xa;JCPGEvL91PF5yIPE0K5o3LpIzP2AqxnS3f5Ig499dbMCAwEAAaM1MDMwDAYDVR0T&#xd;&#xa;AQH/BAIwADAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJ&#xd;&#xa;KoZIhvcNAQEFBQADggEBABsGS02oVuBvYTp0rsFTos/OEwTuWWvnO3erclSXqvE0&#xd;&#xa;2daFiv+vbY/BM7Hoy/LUBSVYbugoLEAj3AujDlnF7CqlJozj/zaxBlBs/thXNxas&#xd;&#xa;UoNOgp0AsLP9xUTc+zArkg2NUrP3x1b/WdN7BW/Ntoxebx/z1i5r+F3BXiYu8b+7&#xd;&#xa;zbH6uvhTRzRakA90vjq9otnjG9YjgeKgGtaou+VW6ukJARdU3GxN8RIbVuI5qhbM&#xd;&#xa;w4wRjWwkzt5gMiZ2Tqqn4lNa1evaKYR0eRQe9TvtHGe4f9sQn5v9d/XSpWmgBI+3&#xd;&#xa;NEgYN8mdC+Xifs7ngcYH3EEQq24v/+RlnP2A9UHMw8c=&#xd;&#xa;-----END CERTIFICATE-----"/>
+        <configurationProperty key="UseClientCert" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ClientCertificate" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ClientCertKey" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="RequestTimeout" type="com.scur.type.number" encrypted="false" value="2000"/>
+        <configurationProperty key="RequestAttempts" type="com.scur.type.number" encrypted="false" value="3"/>
+        <configurationProperty key="UseProxyHostname" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="BypassProxyIfUnreachable" type="com.scur.type.boolean" encrypted="false" value="true"/>
+      </configurationProperties>
+      <description>Default configuration for url filtering.</description>
+    </configuration>
+    <configuration version="1.1.3" mwg-version="7.8.2.3.0-26967" id="com.scur.engine.safesearchenforcer.1503" defaultRights="2" templateId="com.scur.engine.safesearchenforcer.conf" name="Default" targetId="com.scur.engine.safesearchenforcer">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="moderate" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="doReverseDNS" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="strict" type="com.scur.type.boolean" encrypted="false" value="false"/>
+      </configurationProperties>
+      <description></description>
+    </configuration>
+    <configuration version="1.12.0" mwg-version="7.8.2.3.0-26967" id="com.scur.engine.trustedsource.3009" defaultRights="2" templateId="com.scur.template.engine.trustedsource" name="Default" targetId="com.scur.engine.trustedsource">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="OnlyInTheCloud" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="MinimalRiskUnverified" type="com.scur.type.number" encrypted="false" value="14"/>
+        <configurationProperty key="UnverifiedMediumRisk" type="com.scur.type.number" encrypted="false" value="29"/>
+        <configurationProperty key="MediumRiskHighRisk" type="com.scur.type.number" encrypted="false" value="49"/>
+        <configurationProperty key="SearchCgis" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="SearchEmbeddedUrls" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseBackwardDns" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseForwardDns" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="EnableNetLookup" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="ExtendedList" type="com.scur.type.list" listType="com.scur.type.complex.extendedlist" encrypted="false" value=""/>
+        <configurationProperty key="ServerIP" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ServerPort" type="com.scur.type.number" encrypted="false" value="443"/>
+        <configurationProperty key="UseDefaultServer" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="TreatConnectionProblemsAsErros" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LogLevel" type="com.scur.type.string" encrypted="false" value="TS_LOG_LEVEL_DEBUG"/>
+        <configurationProperty key="TS_LOG_AREA_NETWORK" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_ALL" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="TS_LOG_AREA_TRUSTEDSOURCE" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_DATABASE_SEARCH" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_DNS" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="TS_LOG_AREA_URL" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LoggingEnabled" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="UseBuildInKeywordList" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseProxySettings" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ProxyPort" type="com.scur.type.number" encrypted="false" value="9090"/>
+        <configurationProperty key="UseBackwardDnsForPrivateIPs" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ProxyPassword" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ProxyUsername" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ProxyIP" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="EnableDCC" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="DCCCategories" type="com.scur.type.inlineList" listType="com.scur.type.dcccategory" encrypted="false" value="&lt;list version=&quot;1.0.3.41&quot; mwg-version=&quot;7.6.0-20005&quot; classifier=&quot;Other&quot; systemList=&quot;false&quot; structuralList=&quot;false&quot; defaultRights=&quot;2&quot;>&#xa;  &lt;content>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.105&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.149&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;    &lt;listEntry>&#xa;      &lt;entry>com.scur.category.176&lt;/entry>&#xa;      &lt;description>&lt;/description>&#xa;    &lt;/listEntry>&#xa;  &lt;/content>&#xa;&lt;/list>"/>
+        <configurationProperty key="TreatInvalidUrlsAsErros" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="LogFraction" type="com.scur.type.number" encrypted="false" value="100"/>
+        <configurationProperty key="ConnectionCount" type="com.scur.type.number" encrypted="false" value="4"/>
+        <configurationProperty key="RequestTimeout" type="com.scur.type.number" encrypted="false" value="2000"/>
+        <configurationProperty key="RequestAttempts" type="com.scur.type.number" encrypted="false" value="3"/>
+        <configurationProperty key="UseProxyHostname" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="BypassProxyIfUnreachable" type="com.scur.type.boolean" encrypted="false" value="true"/>
+        <configurationProperty key="UseServerCert" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ServerCertificate" type="com.scur.type.string" encrypted="false" value="-----BEGIN CERTIFICATE-----&#xd;&#xa;MIIDHDCCAgSgAwIBAgIBATANBgkqhkiG9w0BAQUFADA2MQwwCgYDVQQKDANtd2cx&#xd;&#xa;CzAJBgNVBAcMAnVzMQswCQYDVQQGEwJVUzEMMAoGA1UEAwwDbXdnMB4XDTE2MDMy&#xd;&#xa;NDEzNDMwNVoXDTI2MDMyNDEzNDMwNVowNjEMMAoGA1UECgwDbXdnMQswCQYDVQQH&#xd;&#xa;DAJ1czELMAkGA1UEBhMCVVMxDDAKBgNVBAMMA213ZzCCASIwDQYJKoZIhvcNAQEB&#xd;&#xa;BQADggEPADCCAQoCggEBAJF32M7KAq+i1ak7ct6LKgRghBgOE54g47ZEUgs8ZvwZ&#xd;&#xa;n16aZFbck1SVeHI/k9IrNxW70uRx+IkpI7521iZpGwphJ892VIaq2FCdC+FfLe2i&#xd;&#xa;vCzSjZPYM+2yq8U/dZB+djL3dI/WeUDlDskvZzDMxmuYYs1z2/ADMvS7eWUKNwZs&#xd;&#xa;eLm+mC1XzHS6CbnTO1IViPXXbTwm7OYItlJiT4bAEC6H6XYSrSDZ+8XqHSztyoqv&#xd;&#xa;uS20UbdJ+vK2SkKHzfM0gXyHOe7FhU6zRsCOT6kb+gdN5QwSKEUey9DyQkUeuME3&#xd;&#xa;JCPGEvL91PF5yIPE0K5o3LpIzP2AqxnS3f5Ig499dbMCAwEAAaM1MDMwDAYDVR0T&#xd;&#xa;AQH/BAIwADAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDQYJ&#xd;&#xa;KoZIhvcNAQEFBQADggEBABsGS02oVuBvYTp0rsFTos/OEwTuWWvnO3erclSXqvE0&#xd;&#xa;2daFiv+vbY/BM7Hoy/LUBSVYbugoLEAj3AujDlnF7CqlJozj/zaxBlBs/thXNxas&#xd;&#xa;UoNOgp0AsLP9xUTc+zArkg2NUrP3x1b/WdN7BW/Ntoxebx/z1i5r+F3BXiYu8b+7&#xd;&#xa;zbH6uvhTRzRakA90vjq9otnjG9YjgeKgGtaou+VW6ukJARdU3GxN8RIbVuI5qhbM&#xd;&#xa;w4wRjWwkzt5gMiZ2Tqqn4lNa1evaKYR0eRQe9TvtHGe4f9sQn5v9d/XSpWmgBI+3&#xd;&#xa;NEgYN8mdC+Xifs7ngcYH3EEQq24v/+RlnP2A9UHMw8c=&#xd;&#xa;-----END CERTIFICATE-----"/>
+        <configurationProperty key="UseClientCert" type="com.scur.type.boolean" encrypted="false" value="false"/>
+        <configurationProperty key="ClientCertificate" type="com.scur.type.string" encrypted="false" value=""/>
+        <configurationProperty key="ClientCertKey" type="com.scur.type.string" encrypted="false" value=""/>
+      </configurationProperties>
+      <description>Default configuration for URL filtering.</description>
+    </configuration>
+    <configuration version="1.6" mwg-version="7.8.2.3.0-26967" id="com.scur.mainaction.block.4572" defaultRights="2" templateId="com.scur.template.mainaction.block" name="URL Blocked" targetId="com.scur.mainaction.block">
+      <acElements/>
+      <configurationProperties>
+        <configurationProperty key="TemplateName" type="com.scur.type.string" encrypted="false" value="URLBlocked"/>
+        <configurationProperty key="DirectoryName" type="com.scur.type.string" encrypted="false" value="mcafee"/>
+        <configurationProperty key="Language" type="com.scur.type.string" encrypted="false" value="auto"/>
+        <configurationProperty key="BlockReasonID" type="com.scur.type.number" encrypted="false" value="10"/>
+        <configurationProperty key="BlockReason" type="com.scur.type.string" encrypted="false" value="Blocked by URL filtering"/>
+      </configurationProperties>
+      <description>Configuration for a block action of url filter.</description>
+    </configuration>
+  </configurations>
+  <userDefinedPropertys>
+    <userDefinedProperty parentId="81" typeId="com.scur.type.string" name="User-Defined.URLFiltering.PolicyName" id="1837" scope="0" description="" defaultRights="2">
+      <stringValue value="" stringModifier="true" typeId="com.scur.type.string"/>
+    </userDefinedProperty>
+    <userDefinedProperty parentId="81" typeId="com.scur.type.boolean" name="User-Defined.URLFiltering.alreadyFiltered" id="3597" scope="0" description="" defaultRights="2">
+      <fixedValue id="com.scur.type.boolean.false"/>
+    </userDefinedProperty>
+  </userDefinedPropertys>
+  <ruleGroup id="2450" defaultRights="2" name="URL Filtering" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="false" cloudSynced="true">
+    <acElements/>
+    <condition always="true">
+      <expressions/>
+    </condition>
+    <description>URL Filtering: The method of blocking sites by categories, including the use of Dynamic Content Classification (DCC).</description>
+    <rules>
+      <rule id="2454" enabled="false" name="DCC: Disable Dynamic Content Classifier">
+        <description>In wizard mode, this stops the processing of URL filtering in Response Cycle because the wizard cannot change a checkmark in the rule set criteria.</description>
+        <immediateActionContainers/>
+        <actionContainer actionId="com.scur.mainaction.stoprulegroup"/>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.cycle.name"/>
+              <parameter valueTyp="3" typeId="com.scur.type.string">
+                <value>
+                  <stringValue value="Response" stringModifier="true" typeId="com.scur.type.string"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+      </rule>
+      <rule id="2466" enabled="true" name="DCC: Enable Dynamic Content Classification">
+        <description>When this rule is enabled, content returned from site will be categorized by the DCC engine.
+If this rule is disabled, uncheck the Response Cycle checkmark in the URL Filtering rule set.</description>
+        <immediateActionContainers/>
+        <actionContainer actionId="com.scur.mainaction.stoprulegroup"/>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.cycle.name"/>
+              <parameter valueTyp="3" typeId="com.scur.type.string">
+                <value>
+                  <stringValue value="Response" stringModifier="true" typeId="com.scur.type.string"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                <parameters>
+                  <entry>
+                    <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                      </value>
+                    </parameter>
+                  </entry>
+                </parameters>
+              </propertyInstance>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.dcccomputedresult"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+          </expressions>
+        </condition>
+      </rule>
+      <rule id="2478" enabled="true" name="DCC: X-DCC-Categories Header">
+        <description>This is used in the log to determine if the category was computed by DCC. 
+If DCC is disabled, then disable this rule as well.</description>
+        <immediateActionContainers>
+          <executeActionContainer>
+            <procedureValue procedureId="com.scur.engine.headerfilter.block.headers.addheader">
+              <parameters>
+                <entry>
+                  <string>com.scur.engine.headerfilter.block.headers.addheader.headername</string>
+                  <parameter valueTyp="3">
+                    <value>
+                      <stringValue value="X-DCC-Categories" stringModifier="true" typeId="com.scur.type.string"/>
+                    </value>
+                  </parameter>
+                </entry>
+                <entry>
+                  <string>com.scur.engine.headerfilter.block.headers.addheader.headervalue</string>
+                  <parameter valueTyp="2">
+                    <value>
+                      <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.concat">
+                        <parameters>
+                          <entry>
+                            <string>com.scur.engine.stringfilter.string.concat.param1</string>
+                            <parameter valueTyp="2">
+                              <value>
+                                <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.trustedsource.categorylist.tostring">
+                                  <parameters>
+                                    <entry>
+                                      <string>com.scur.engine.trustedsource.categorylist.tostring.categorylist</string>
+                                      <parameter valueTyp="2">
+                                        <value>
+                                          <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                                        </value>
+                                      </parameter>
+                                    </entry>
+                                  </parameters>
+                                </propertyInstance>
+                              </value>
+                            </parameter>
+                          </entry>
+                          <entry>
+                            <string>com.scur.engine.stringfilter.string.concat.param2</string>
+                            <parameter valueTyp="3">
+                              <value>
+                                <stringValue value="(DCC)" stringModifier="true" typeId="com.scur.type.string"/>
+                              </value>
+                            </parameter>
+                          </entry>
+                        </parameters>
+                      </propertyInstance>
+                    </value>
+                  </parameter>
+                </entry>
+              </parameters>
+            </procedureValue>
+          </executeActionContainer>
+          <setActionContainer propertyId="3597">
+            <expressions>
+              <setExpression openingBracketCount="0" closingBracketCount="0">
+                <parameter valueTyp="3" valueId="com.scur.type.boolean.false"/>
+              </setExpression>
+            </expressions>
+          </setActionContainer>
+        </immediateActionContainers>
+        <actionContainer actionId="com.scur.mainaction.continue"/>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                <parameters>
+                  <entry>
+                    <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                      </value>
+                    </parameter>
+                  </entry>
+                </parameters>
+              </propertyInstance>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.dcccomputedresult"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+          </expressions>
+        </condition>
+      </rule>
+    </rules>
+    <ruleGroups>
+      <ruleGroup id="2966" defaultRights="2" name="Executives: Exceptions" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="true" cloudSynced="true">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>Exception Users or Groups</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.0</id>
+                    <description>This list of users and group names will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.2960</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Client IP Ranges</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.1</id>
+                    <description>This list client IP ranges will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.iprange.2962</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Categories</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.2</id>
+                    <description>This list of Categories will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.category.2782</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Allow Uncategorized URLs</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.3</id>
+                    <description>Allow uncategorized URLs for users, groups and IPs above regardless of the default poliicy</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3132</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3132</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <separator>Exception Whitelist Hosts, Domains, and URLs</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.4</id>
+                    <description>This smart list of Hosts, Domains and URLs will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.2803</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings (For exception matches)</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Safe Search</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.5</id>
+                    <description>Enable safe search for exceptions. Safe Search setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3167</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3167</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable GTI Web Reputation</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.6</id>
+                    <description>Block exceptions with medium or high risk reputations. GTI reputation setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3149</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3149</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.isinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.username"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.2960"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.attributes"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.2960"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.isinrangelist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.client.ip"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.iprange">
+                <value>
+                  <listValue id="com.scur.type.iprange.2962"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>
+    </description>
+        <rules>
+          <rule id="2882" enabled="true" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)">
+            <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.2803"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2978" enabled="true" name="POLICYNAME: Allowed Categories">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.2782"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3132" enabled="true" name="Allow Uncategorized URLs">
+            <description>This rule allows all URLs that are uncategorized by the GTI web database.</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                        <parameter valueTyp="2">
+                          <value>
+                            <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2906" enabled="true" name="Set Policy Name">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3149" enabled="true" name="Block URLs With Bad Reputation">
+            <description>Blocks URLs with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3167" enabled="true" name="Enable SafeSearchEnforcer">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.1503">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+      <ruleGroup id="3195" defaultRights="2" name="SocialNetworking: Exceptions" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="true" cloudSynced="true">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>Exception Users or Groups</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.0</id>
+                    <description>This list of users and group names will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.2939</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Client IP Ranges</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.1</id>
+                    <description>This list client IP ranges will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.iprange.3177</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Categories</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.2</id>
+                    <description>This list of Categories will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.category.3176</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Allow Uncategorized URLs</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.3</id>
+                    <description>Allow uncategorized URLs for users, groups and IPs above regardless of the default poliicy</description>
+                    <checked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3221</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3221</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <separator>Exception Whitelist Hosts, Domains, and URLs</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.4</id>
+                    <description>This smart list of Hosts, Domains and URLs will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.3175</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings (For exception matches)</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Safe Search</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.5</id>
+                    <description>Enable safe search for exceptions. Safe Search setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3241</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3241</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable GTI Web Reputation</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.6</id>
+                    <description>Block exceptions with medium or high risk reputations. GTI reputation setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3233</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3233</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.isinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.username"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.2939"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.attributes"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.2939"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.isinrangelist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.client.ip"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.iprange">
+                <value>
+                  <listValue id="com.scur.type.iprange.3177"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>
+    </description>
+        <rules>
+          <rule id="3198" enabled="true" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)">
+            <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3175"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2954" enabled="true" name="POLICYNAME: Allowed Categories">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.3176"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3221" enabled="false" name="Allow Uncategorized URLs">
+            <description>This rule allows all URLs that are uncategorized by the GTI web database.</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                        <parameter valueTyp="2">
+                          <value>
+                            <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3226" enabled="true" name="Set Policy Name">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3233" enabled="true" name="Block URLs With Bad Reputation">
+            <description>Blocks URLs with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3241" enabled="true" name="Enable SafeSearchEnforcer">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.1503">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+      <ruleGroup id="3310" defaultRights="2" name="WebMail: Exceptions" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="true" cloudSynced="true">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>Exception Users or Groups</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.0</id>
+                    <description>This list of users and group names will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.3251</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Client IP Ranges</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.1</id>
+                    <description>This list client IP ranges will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.iprange.3254</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Categories</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.2</id>
+                    <description>This list of Categories will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.category.3252</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Allow Uncategorized URLs</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.3</id>
+                    <description>Allow uncategorized URLs for users, groups and IPs above regardless of the default poliicy</description>
+                    <checked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3331</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3331</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <separator>Exception Whitelist Hosts, Domains, and URLs</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.4</id>
+                    <description>This smart list of Hosts, Domains and URLs will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.3250</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings (For exception matches)</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Safe Search</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.5</id>
+                    <description>Enable safe search for exceptions. Safe Search setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3392</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3392</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable GTI Web Reputation</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.6</id>
+                    <description>Block exceptions with medium or high risk reputations. GTI reputation setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3350</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3350</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.isinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.username"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.3251"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.attributes"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.3251"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.isinrangelist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.client.ip"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.iprange">
+                <value>
+                  <listValue id="com.scur.type.iprange.3254"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>
+    </description>
+        <rules>
+          <rule id="3317" enabled="true" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)">
+            <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3250"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3322" enabled="true" name="POLICYNAME: Allowed Categories">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.3252"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3331" enabled="false" name="Allow Uncategorized URLs">
+            <description>This rule allows all URLs that are uncategorized by the GTI web database.</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                        <parameter valueTyp="2">
+                          <value>
+                            <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3343" enabled="true" name="Set Policy Name">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3350" enabled="true" name="Block URLs With Bad Reputation">
+            <description>Blocks URLs with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3392" enabled="true" name="Enable SafeSearchEnforcer">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.1503">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+      <ruleGroup id="3446" defaultRights="2" name="CloudStorage: Exceptions" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="true" cloudSynced="true">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>Exception Users or Groups</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.0</id>
+                    <description>This list of users and group names will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.3358</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Client IP Ranges</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.1</id>
+                    <description>This list client IP ranges will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.iprange.3359</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Categories</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.2</id>
+                    <description>This list of Categories will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.category.3394</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Allow Uncategorized URLs</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.3</id>
+                    <description>Allow uncategorized URLs for users, groups and IPs above regardless of the default poliicy</description>
+                    <checked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3418</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3418</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <separator>Exception Whitelist Hosts, Domains, and URLs</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.4</id>
+                    <description>This smart list of Hosts, Domains and URLs will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.3442</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings (For exception matches)</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Safe Search</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.5</id>
+                    <description>Enable safe search for exceptions. Safe Search setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3426</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3426</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable GTI Web Reputation</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.6</id>
+                    <description>Block exceptions with medium or high risk reputations. GTI reputation setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>3423</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>3423</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.isinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.username"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.3358"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.attributes"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.3358"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.isinrangelist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.client.ip"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.iprange">
+                <value>
+                  <listValue id="com.scur.type.iprange.3359"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>
+    </description>
+        <rules>
+          <rule id="3448" enabled="true" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)">
+            <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3442"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3416" enabled="true" name="POLICYNAME: Allowed Categories">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.3394"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3418" enabled="false" name="Allow Uncategorized URLs">
+            <description>This rule allows all URLs that are uncategorized by the GTI web database.</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                        <parameter valueTyp="2">
+                          <value>
+                            <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3454" enabled="true" name="Set Policy Name">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3423" enabled="true" name="Block URLs With Bad Reputation">
+            <description>Blocks URLs with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="3426" enabled="true" name="Enable SafeSearchEnforcer">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.1503">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+      <ruleGroup id="2716" defaultRights="2" name="POLICYNAME: Exceptions" enabled="false" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="true" cloudSynced="false">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>Exception Users or Groups</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.0</id>
+                    <description>This list of users and group names will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.1502</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Client IP Ranges</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.1</id>
+                    <description>This list client IP ranges will be allowed to sites and categories below regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.iprange.1480</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Exception Categories</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.2</id>
+                    <description>This list of Categories will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.category.1499</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Allow Uncategorized URLs</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.3</id>
+                    <description>Allow uncategorized URLs for users, groups and IPs above regardless of the default poliicy</description>
+                    <checked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>2739</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>2739</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <separator>Exception Whitelist Hosts, Domains, and URLs</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title> </title>
+                    <id>com.scur.config.policynameexceptions.button.4</id>
+                    <description>This smart list of Hosts, Domains and URLs will be allowed for Users, Groups and IPs above regardless of default policy</description>
+                    <policy>
+                      <listId>com.scur.type.string.1440</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings (For exception matches)</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Safe Search</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.5</id>
+                    <description>Enable safe search for exceptions. Safe Search setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>2799</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>2799</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable GTI Web Reputation</title>
+                    <id>com.scur.config.policynameexceptions.checkbox.6</id>
+                    <description>Block exceptions with medium or high risk reputations. GTI reputation setting in Default Policy will apply to requests that do not match the exceptions lists.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>2762</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>2762</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+            <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.isinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.username"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.1502"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.auth.attributes"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.string">
+                <value>
+                  <listValue id="com.scur.type.string.1502"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+            <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.isinrangelist">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.client.ip"/>
+              <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.iprange">
+                <value>
+                  <listValue id="com.scur.type.iprange.1480"/>
+                </value>
+              </parameter>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>
+    </description>
+        <rules>
+          <rule id="2729" enabled="true" name="POLICYNAME: Allowed Hosts, Domains, or URLs (SmartMatch)">
+            <description>SmartList of Hosts, Domains, or URLs to always allow.
+SmartList entries are in the form of Host, Domain, URL, or Fragment.
+host.domain.tld, domain.tld,  http://host.domain.tld/path?parameters, domain.tld/path 
+(* assumed on both sides of the entry)</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.1440"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2734" enabled="true" name="POLICYNAME: Allowed Categories">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.1499"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2739" enabled="false" name="Allow Uncategorized URLs">
+            <description>This rule allows all URLs that are uncategorized by the GTI web database.</description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.listfilter.categorylist.isempty">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.listfilter.categorylist.isempty.list</string>
+                        <parameter valueTyp="2">
+                          <value>
+                            <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2747" enabled="true" name="Set Policy Name">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2762" enabled="true" name="Block URLs With Bad Reputation">
+            <description>Blocks URLs with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.3009" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="2799" enabled="true" name="Enable SafeSearchEnforcer">
+            <description>
+        </description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.1503">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+      <ruleGroup id="1860" defaultRights="2" name="Default: URL Filtering" enabled="true" cycleRequest="true" cycleResponse="true" cycleEmbeddedObject="false" cloudSynced="true">
+        <acElements/>
+        <wizard>
+          <page>
+            <grid halign="left" valign="top">
+              <separator>URL Filtering Whitelist / Blacklist</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable Whitelist</title>
+                    <id>com.scur.preconfig.urlfilter.whitelist.checkbox</id>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>1866</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>1866</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title>Allowed Sites</title>
+                    <id>com.scur.preconfig.urlfilter.whitelist.allowedsites.list</id>
+                    <description>SmartList of Hosts, Domains, or URLs to always allow.</description>
+                    <policy>
+                      <listId>com.scur.type.string.3205</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable Blacklist</title>
+                    <id>com.scur.preconfig.urlfilter.blacklist.checkbox</id>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>1870</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>1870</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title>Blocked Sites</title>
+                    <id>com.scur.preconfig.urlfilter.blacklist.blockedsites.list</id>
+                    <description>SmartList of Hosts, Domains, or URLs to always block.</description>
+                    <policy>
+                      <listId>com.scur.type.string.3207</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>Default Category Filtering</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable Category Filtering</title>
+                    <id>com.scur.preconfig.urlfilter.category.checkbox</id>
+                    <description>This applies to all traffic.
+Exceptions are located on the Next page.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>1902</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>1902</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title>Default Blocked Categories</title>
+                    <id>com.scur.preconfig.urlfilter.blocked.categories.list</id>
+                    <description>List of Categories blocked for everyone.</description>
+                    <policy>
+                      <listId>com.scur.type.category.3028</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <label>
+                    <title> </title>
+                    <id>com.scur.preconfig.urlfilter.override.label</id>
+                  </label>
+                </cell>
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title>Override Blocked Categories</title>
+                    <id>com.scur.preconfig.urlfilter.override.categories.list</id>
+                    <description>Override Blocked Categories
+When site has two categories, these categories override the blocked 
+categories. </description>
+                    <policy>
+                      <listId>com.scur.type.category.1487</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <separator>URL Filter Settings</separator>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable Global Threat Intelligence (GTI) Web Reputation</title>
+                    <id>com.scur.preconfig.urlfilter.gti.checkbox</id>
+                    <description>Block sites with a Medium or High Risk Reputation.</description>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>1891</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>1891</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+                <cell halign="left" valign="top">
+                  <settingEditor>
+                    <title>URL Filter Engine Setting</title>
+                    <id>com.scur.preconfig.urlfilter.engine.settings</id>
+                    <description>Adjust the URL Filtering Engine setting.</description>
+                    <policy>
+                      <settingId>com.scur.engine.trustedsource.4569</settingId>
+                    </policy>
+                  </settingEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="top">
+                  <checkBox>
+                    <title>Enable SafeSearch Enforcer</title>
+                    <id>com.scur.preconfig.urlfilter.safesearch.checkbox</id>
+                    <checked initial="true">
+                      <policy>
+                        <changeRule>
+                          <ruleId>1846</ruleId>
+                          <enable>true</enable>
+                        </changeRule>
+                      </policy>
+                    </checked>
+                    <unchecked>
+                      <policy>
+                        <changeRule>
+                          <ruleId>1846</ruleId>
+                          <enable>false</enable>
+                        </changeRule>
+                      </policy>
+                    </unchecked>
+                  </checkBox>
+                </cell>
+                <cell halign="left" valign="top">
+                  <listContentEditor>
+                    <title>SafeSearch Bypass Sites</title>
+                    <id>com.scur.preconfig.urlfilter.safesearch.list</id>
+                    <description>SmartList of sites to bypass SafeSearch Enforcement.</description>
+                    <policy>
+                      <listId>com.scur.type.string.3209</listId>
+                    </policy>
+                  </listContentEditor>
+                </cell>
+              </row>
+              <row halign="left" valign="top">
+                <cell halign="left" valign="bottom">
+                  <label>
+                    <title> </title>
+                    <id>com.scur.preconfig.urlfilter.safesearch.label</id>
+                  </label>
+                </cell>
+                <cell halign="left" valign="top">
+                  <settingEditor>
+                    <title>SafeSearch settings</title>
+                    <id>com.scur.preconfig.urlfilter.safesearch.settings</id>
+                    <description>Set the sensitivity level for SafeSearch enforcement.</description>
+                    <policy>
+                      <settingId>com.scur.engine.safesearchenforcer.2118</settingId>
+                    </policy>
+                  </settingEditor>
+                </cell>
+              </row>
+            </grid>
+          </page>
+        </wizard>
+        <condition always="false">
+          <expressions>
+            <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+              <propertyInstance useMostRecentConfiguration="false" propertyId="3597"/>
+              <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+            </conditionExpression>
+          </expressions>
+        </condition>
+        <description>Default policy applies to all users unless an Exception rule set is reached above this one.</description>
+        <rules>
+          <rule id="1839" enabled="true" name="Set Already Filtered">
+            <description></description>
+            <immediateActionContainers>
+              <setActionContainer propertyId="3597">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="3" valueId="com.scur.type.boolean.true"/>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+              <setActionContainer propertyId="1837">
+                <expressions>
+                  <setExpression openingBracketCount="0" closingBracketCount="0">
+                    <parameter valueTyp="2">
+                      <value>
+                        <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replacefirstmatch">
+                          <parameters>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.source</string>
+                              <parameter valueTyp="2">
+                                <value>
+                                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.rules.currentrulesetname"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.search</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="regex(^(.*):.*)" stringModifier="false" typeId="com.scur.type.regex"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                            <entry>
+                              <string>com.scur.engine.stringfilter.string.replacefirstmatch.replace</string>
+                              <parameter valueTyp="3">
+                                <value>
+                                  <stringValue value="\1" stringModifier="true" typeId="com.scur.type.string"/>
+                                </value>
+                              </parameter>
+                            </entry>
+                          </parameters>
+                        </propertyInstance>
+                      </value>
+                    </parameter>
+                  </setExpression>
+                </expressions>
+              </setActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="true">
+              <expressions/>
+            </condition>
+          </rule>
+          <rule id="1866" enabled="true" name="URL Filter: Allowed Sites">
+            <description>Domains or URLs in these lists are always allowed for everyone and not blocked by category.</description>
+            <immediateActionContainers/>
+            <actionContainer actionId="com.scur.mainaction.stoprulegroup"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3205"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="1870" enabled="true" name="URL Filter: Blocked Sites">
+            <description>Domains or URLs in these lists are always blocked for everyone.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3207"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="1846" enabled="true" name="SafeSearch: Strict and SafeSearch: Bypass Sites">
+            <description>SafeSearch Enforcer is set to Strict. 
+There are some rare instances where SafeSearch may need to be bypassed for specific URLs in order to fix some applications.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.safesearchenforcer.2118">
+                <procedureValue procedureId="com.scur.engine.safesearchenforcer.safesearchmoderate">
+                  <parameters/>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer actionId="com.scur.mainaction.continue"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.cycle.name"/>
+                  <parameter valueTyp="3" typeId="com.scur.type.string">
+                    <value>
+                      <stringValue value="Request" stringModifier="true" typeId="com.scur.type.string"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+                <conditionExpression prefix="AND" openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.url.smartmatch">
+                    <parameters>
+                      <entry>
+                        <string>com.scur.engine.system.string.domainmagicmatch.domainlist</string>
+                        <parameter valueTyp="1">
+                          <value>
+                            <listValue id="com.scur.type.string.3209"/>
+                          </value>
+                        </parameter>
+                      </entry>
+                    </parameters>
+                  </propertyInstance>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.false" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="1891" enabled="true" name="GTI: Block HighRisk and MediumRisk Reputations">
+            <description>Blocks urls with bad reputation.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.1810" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.system.cycle.name"/>
+                  <parameter valueTyp="3" typeId="com.scur.type.string">
+                    <value>
+                      <stringValue value="Request" stringModifier="true" typeId="com.scur.type.string"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+                <conditionExpression prefix="AND" openingBracketCount="1" closingBracketCount="0" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.ishighrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+                <conditionExpression prefix="OR" openingBracketCount="0" closingBracketCount="1" operatorId="com.scur.operator.equals">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.ismediumrisk"/>
+                  <parameter valueTyp="3" valueId="com.scur.type.boolean.true" typeId="com.scur.type.boolean"/>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="1898" enabled="true" name="URL Filter: Override Blocked Categories">
+            <description>Categories that override a block if site is in multiple categories.</description>
+            <immediateActionContainers/>
+            <actionContainer actionId="com.scur.mainaction.stoprulegroup"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.1487"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+          <rule id="1902" enabled="true" name="URL Filter: Default Blocked Categories">
+            <description>This is the default list of categories that are blocked for everyone. Anyone needing access to these categories should be defined as a Stop Rule Set exception above this rule.</description>
+            <immediateActionContainers>
+              <executeActionContainer configurationId="com.scur.engine.billing.4575">
+                <procedureValue procedureId="com.scur.engine.billing.incrementcounter">
+                  <parameters>
+                    <entry>
+                      <string>com.scur.engine.billing.countername</string>
+                      <parameter valueTyp="2">
+                        <value>
+                          <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replaceifequals">
+                            <parameters>
+                              <entry>
+                                <string>com.scur.engine.stringfilter.string.replaceifequals.source</string>
+                                <parameter valueTyp="2">
+                                  <value>
+                                    <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.string.replaceifequals">
+                                      <parameters>
+                                        <entry>
+                                          <string>com.scur.engine.stringfilter.string.replaceifequals.source</string>
+                                          <parameter valueTyp="2">
+                                            <value>
+                                              <propertyInstance useMostRecentConfiguration="false" propertyId="com.scur.engine.stringfilter.boolean.tostring">
+                                                <parameters>
+                                                  <entry>
+                                                    <string>com.scur.engine.stringfilter.boolean.tostring.boolean</string>
+                                                    <parameter valueTyp="2">
+                                                      <value>
+                                                        <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.dcccomputedresult"/>
+                                                      </value>
+                                                    </parameter>
+                                                  </entry>
+                                                </parameters>
+                                              </propertyInstance>
+                                            </value>
+                                          </parameter>
+                                        </entry>
+                                        <entry>
+                                          <string>com.scur.engine.stringfilter.string.replaceifequals.substring</string>
+                                          <parameter valueTyp="3">
+                                            <value>
+                                              <stringValue value="true" stringModifier="true" typeId="com.scur.type.string"/>
+                                            </value>
+                                          </parameter>
+                                        </entry>
+                                        <entry>
+                                          <string>com.scur.engine.stringfilter.string.replaceifequals.replace</string>
+                                          <parameter valueTyp="3">
+                                            <value>
+                                              <stringValue value="BlockedByDCC" stringModifier="true" typeId="com.scur.type.string"/>
+                                            </value>
+                                          </parameter>
+                                        </entry>
+                                      </parameters>
+                                    </propertyInstance>
+                                  </value>
+                                </parameter>
+                              </entry>
+                              <entry>
+                                <string>com.scur.engine.stringfilter.string.replaceifequals.substring</string>
+                                <parameter valueTyp="3">
+                                  <value>
+                                    <stringValue value="false" stringModifier="true" typeId="com.scur.type.string"/>
+                                  </value>
+                                </parameter>
+                              </entry>
+                              <entry>
+                                <string>com.scur.engine.stringfilter.string.replaceifequals.replace</string>
+                                <parameter valueTyp="3">
+                                  <value>
+                                    <stringValue value="BlockedByURLFilter" stringModifier="true" typeId="com.scur.type.string"/>
+                                  </value>
+                                </parameter>
+                              </entry>
+                            </parameters>
+                          </propertyInstance>
+                        </value>
+                      </parameter>
+                    </entry>
+                    <entry>
+                      <string>com.scur.engine.billing.value</string>
+                      <parameter valueTyp="3">
+                        <value>
+                          <stringValue value="1" stringModifier="false" typeId="com.scur.type.number"/>
+                        </value>
+                      </parameter>
+                    </entry>
+                  </parameters>
+                </procedureValue>
+              </executeActionContainer>
+            </immediateActionContainers>
+            <actionContainer configurationId="com.scur.mainaction.block.4572" actionId="com.scur.mainaction.block"/>
+            <condition always="false">
+              <expressions>
+                <conditionExpression openingBracketCount="0" closingBracketCount="0" operatorId="com.scur.operator.atleastoneinlist">
+                  <propertyInstance useMostRecentConfiguration="false" configurationId="com.scur.engine.trustedsource.4569" propertyId="com.scur.engine.trustedsource.url.categories"/>
+                  <parameter valueTyp="1" typeId="com.scur.type.list" listTypeId="com.scur.type.category">
+                    <value>
+                      <listValue id="com.scur.type.category.3028"/>
+                    </value>
+                  </parameter>
+                </conditionExpression>
+              </expressions>
+            </condition>
+          </rule>
+        </rules>
+        <ruleGroups/>
+      </ruleGroup>
+    </ruleGroups>
+  </ruleGroup>
+</libraryContent>
